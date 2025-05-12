@@ -1,0 +1,26 @@
+{
+  "title": "My Next.js Site!*33",
+  "tagline": "Converted to Next.js framework.",
+  "repo": null,
+  "netlify": null,
+  "useTypeScript": true,
+  "useTailwind": true,
+  "useESLint": true,
+  "useAppDir": true,
+  "useNpm": true,
+  "useForce": true,
+  "useSrcDir": false,
+  "includeCmsScaffolding": false,
+  "components": ["Header", "Footer"],
+  "tokens": {
+    "colors": {
+      "brand": "#8B3A3A",
+      "accent": "#DAA520",
+      "neutral": "#372323"
+    },
+    "fonts": {
+      "heading": "Ysabeau Office",
+      "body": "Inter"
+    }
+  }
+}

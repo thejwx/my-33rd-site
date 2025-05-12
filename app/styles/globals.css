@@ -1,0 +1,64 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ysabeau Office;
+}
+
+/* Header styles */
+.site-header {
+  padding: 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+  color: #8B3A3A;
+  font-family: Ysabeau Office;
+}
+
+.site-tagline {
+  font-size: 1.125rem;
+  color: #372323;
+  font-family: Inter;
+}
+
+/* Navigation styles */
+.nav-container {
+  margin-top: 0.5rem;
+}
+
+.nav-links > * + * {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  font-size: 0.875rem;
+  color: #372323;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content {
+  padding: 1.5rem;
+}
+
+/* Footer styles */
+.site-footer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #372323;
+  margin-top: 2rem;
+}
